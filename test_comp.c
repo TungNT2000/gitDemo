@@ -1,8 +1,8 @@
 #include <stdio.h>
-#define STRING "hello_World"
-inline void pr() { printf(STRING); }
+#define STRING "hello_World_2"
+void pr() { printf(STRING); }
 int main() {
   // print hello wall
-  pr;
+  pr();
   return 0;
 }
